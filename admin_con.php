@@ -66,13 +66,6 @@ class Admin_con extends CI_Controller {
 		$this->load->view('penyuluh_ad');
 		$this->load->view('footer');
 	}
-	public function perpeny_ad()
-	{
-		$this->load->view('header_ad');
-		$this->load->view('sidebar_ad');	
-		$this->load->view('perpeny_ad');
-		$this->load->view('footer');
-	}
 	public function perditer_ad()
 	{
 		$this->load->view('header_ad');
